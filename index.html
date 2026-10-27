@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RanCafe</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fceef5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #0c0609;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffe1ee;
+            text-decoration: underline;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 60vh;
+            padding: 30px 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 20px;
+            padding: 35px;
+            max-width: 1100px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 360%;
+            object-fit: cover;
+            border: 1px solid #0f0108;
+            margin-bottom: 10px;
+            
+        }
+
+        .card h2 {
+            color: #130109;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background-color: #13080d;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 580px) {
+            nav a {
+                display: inline-block;
+                margin: 5px 8px;
+            }
+
+            .card {
+                padding: 25px 20px;
+            }
+            .h1 {
+    border-bottom: 2px solid rgb(0, 255, 157);}
+     .profile-img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #110108;
+            margin-bottom: 20px;
+        }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Rancafe</h1>
+        <p></p>
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="media.html">Media</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main id="home">
+        <div class="card">
+            <img src="JohnAct1.jpg" alt profile picture" class="profile-img"
+            <h2>Welcome Home</h2>
+            
+
+            <h2 id="about"></h2>
+
+            <p>Welcome to my midterm laboratory project. This site is built using seperate HTML pages to display distinct views clearly. By utilizing semantic HTML tags and custom CSS layout properties, information is presented in a balanced and accessible structure.
+                
+            </p>
+
+            <p id="services">
+                
+            </p>
+
+            <p id="contact" style="margin-top: 20px;">
+               
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Rancafe</p>
+    </footer>
+
+</body>
+</html>
